@@ -1,4 +1,4 @@
-/* ---------------- Navbar Styles ---------------- */
+ 
 .navbar1 {
   display: flex;
   justify-content: space-between;
@@ -7,39 +7,38 @@
   position: fixed;
   top: 0;
   left: 0;
-  padding: 15px 20px; /* more padding for breathing room */
+  padding: 15px 20px;  
   background: linear-gradient(45deg, rgb(16, 137, 211) 0%, rgb(18, 177, 209) 100%);
   z-index: 1000;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 10px;
 }
-
-/* Logo */
+ 
 .logo1 {
   font-size: 22px;
   font-weight: bold;
   color: white;
 }
-/* Logo link style same as nav links */
+ 
 .logo1 a {
   text-decoration: none;
-  color: white;          /* same color as nav links */
-  font-size: 20px;       /* adjust if needed */
-  font-weight: bold;     /* make it stand out */
+  color: white;          
+  font-size: 20px;        
+  font-weight: bold;     
   transition: color 0.3s ease;
 }
 
 .logo1 a:hover {
-  color: #ffffff;        /* same hover effect as nav links */
+  color: #ffffff;        
 }
 
 
-/* Nav Links */
+ 
 .nav-links1 {
   display: flex;
-  gap: 20px;            /* spacing between links */
-  margin-left: auto;    /* push links to the right */
+  gap: 20px;            
+  margin-left: auto;     
   align-items: center;
-  padding-right: 20px;  /* space from right edge */
+  padding-right: 20px;   
 }
 
 .nav-links1 a {
@@ -59,7 +58,7 @@
   transform: scale(1.05);
 }
 
-/* Hamburger Menu (hidden by default) */
+ 
 .hamburger1 {
   display: none;
   flex-direction: column;
@@ -75,7 +74,7 @@
   border-radius: 2px;
 }
 
-/* Mobile View */
+ 
 @media (max-width: 768px) {
   .nav-links1 {
     display: none;

@@ -1,4 +1,4 @@
-/* From Uiverse.io by Smit-Prajapati */ 
+ 
 .container {
   max-width: 350px;
   background: #F8F9FD;
@@ -131,18 +131,18 @@
   text-align: center;
    color: rgb(170, 170, 170);
   margin-top: 15px;
-  font-size: 12px;   /* better visibility */
+  font-size: 12px;    
 }
 .agreement a {
   text-decoration: none;
   color: #0099ff;
   font-weight: 500;
-  margin-left: 4px;  /* small gap after "Please" */
+  margin-left: 4px;   
   font-size: 12px;
-  transition: color 0.3s ease, text-decoration 0.3s ease; /* smooth effect */
+  transition: color 0.3s ease, text-decoration 0.3s ease;  
 }
 
 .agreement a:hover {
-  color: rgb(0, 0, 0);  /* darker blue on hover */
+  color: rgb(0, 0, 0);  
    
 }

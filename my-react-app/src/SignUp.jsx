@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
-import "../src/assets/css/SignUp.css"; // Use the CSS you pasted (slightly updated below)
+import "../src/assets/css/SignUp.css"; 
 
 const SignUp = () => {
   const [form, setForm] = useState({ name: "", email: "", password: "" });
@@ -54,7 +54,7 @@ const SignUp = () => {
       <div className="social-account-container">
   <span className="title">Or Sign up with</span>
   <div className="social-accounts">
-    {/* Google */}
+   
     <button className="social-button google">
       <svg
         className="svg"
@@ -69,7 +69,7 @@ const SignUp = () => {
       </svg>
     </button>
 
-    {/* Apple */}
+   
     <button className="social-button apple">
       <svg
         className="svg"
@@ -84,7 +84,7 @@ const SignUp = () => {
       </svg>
     </button>
 
-    {/* Twitter */}
+   
     <button className="social-button twitter">
       <svg
         className="svg"

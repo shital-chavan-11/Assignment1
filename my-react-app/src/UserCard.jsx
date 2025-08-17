@@ -1,5 +1,5 @@
 import React from "react";
-import "../src/assets/css/UserCard.css"; // Importing CSS
+import "../src/assets/css/UserCard.css";  
 import Navbar from "./Navbar";
 
 function UserCard({ name, email }) {
